@@ -1,0 +1,23 @@
+/* Fluid type keeps project content readable across viewport sizes. */
+.project-body h3{font-size:clamp(1.35rem,2.25vw,1.7rem);line-height:1.08}
+.project-body p{font-size:clamp(.72rem,1vw,.82rem);line-height:1.65}
+.project-meta{font-size:clamp(.58rem,.75vw,.68rem)}
+.text-button,.prototype-link{font-size:clamp(.68rem,.85vw,.76rem)}
+.visual-content{font-size:clamp(1.45rem,2.8vw,2rem)}
+.visual-content em{font-size:clamp(.72rem,1.35vw,.94rem)}
+@media (max-width:900px){
+  .project-visual{height:clamp(270px,42vw,330px)}
+  .project-body h3{font-size:clamp(1.4rem,3.8vw,1.7rem)}
+  .visual-content{font-size:clamp(1.5rem,5vw,2rem)}
+}
+@media (max-width:560px){
+  .hero h1{font-size:clamp(2.65rem,12vw,3.1rem);line-height:1}
+  .project-visual{height:clamp(245px,72vw,300px);padding:18px}
+  .project-body{padding-top:18px}
+  .project-body h3{font-size:clamp(1.3rem,7vw,1.55rem)}
+  .project-body p{font-size:.75rem;line-height:1.6}
+  .project-meta{font-size:.58rem;gap:10px}
+  .visual-content{left:11%;top:27%;font-size:clamp(1.35rem,8vw,1.8rem)}
+  .visual-content em{font-size:.75rem}
+  .visual-panels i{width:82px;height:155px}
+}
