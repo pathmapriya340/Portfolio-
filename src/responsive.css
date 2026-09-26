@@ -1,10 +1,27 @@
 /* Fluid type keeps project content readable across viewport sizes. */
-.project-body h3{font-size:clamp(1.35rem,2.25vw,1.7rem);line-height:1.08}
-.project-body p{font-size:clamp(.72rem,1vw,.82rem);line-height:1.65}
-.project-meta{font-size:clamp(.58rem,.75vw,.68rem)}
-.text-button,.prototype-link{font-size:clamp(.68rem,.85vw,.76rem)}
-.visual-content{font-size:clamp(1.45rem,2.8vw,2rem)}
-.visual-content em{font-size:clamp(.72rem,1.35vw,.94rem)}
+body{font-size:clamp(1rem,.14vw + .94rem,1.08rem)}
+h1{font-size:clamp(3.2rem,5.2vw,5.8rem)}
+h2{font-size:clamp(2.9rem,4.6vw,5rem)}
+h3{font-size:clamp(1.2rem,1.8vw,1.5rem)}
+p{font-size:clamp(.9rem,.12vw + .82rem,1.05rem)}
+button,.button,input,textarea{font-size:clamp(.8rem,.2vw + .74rem,.92rem)}
+.eyebrow,.kicker,.accent{font-size:clamp(.64rem,.22vw + .58rem,.72rem)}
+.nav-wrap nav{font-size:clamp(.76rem,.24vw + .68rem,.84rem)}
+.badges span,.chips span,.tags span{font-size:clamp(.8rem,.24vw + .72rem,.94rem)}
+.info-cards strong{font-size:clamp(1.18rem,1.5vw,1.4rem)}
+.info-cards small{font-size:clamp(.72rem,.18vw + .66rem,.8rem)}
+.process h3{font-size:clamp(.94rem,1vw,1.12rem)}
+.process p,.responsibilities span{font-size:clamp(.7rem,.16vw + .64rem,.8rem)}
+.tools small,.footer-grid small{font-size:clamp(.62rem,.16vw + .56rem,.72rem)}
+.contact h3{font-size:clamp(1.6rem,2vw,2rem)}
+.contact label{font-size:clamp(.7rem,.18vw + .64rem,.8rem)}
+.status{font-size:clamp(.72rem,.18vw + .66rem,.8rem)}
+.project-body h3{font-size:clamp(1.5rem,2vw,1.9rem);line-height:1.08}
+.project-body p{font-size:clamp(.8rem,.9vw,.92rem);line-height:1.65}
+.project-meta{font-size:clamp(.62rem,.7vw,.74rem)}
+.text-button,.prototype-link{font-size:clamp(.72rem,.8vw,.8rem)}
+.visual-content{font-size:clamp(1.6rem,2.8vw,2.2rem)}
+.visual-content em{font-size:clamp(.76rem,1.2vw,.96rem)}
 @media (max-width:900px){
   .project-visual{height:clamp(270px,42vw,330px)}
   .project-body h3{font-size:clamp(1.4rem,3.8vw,1.7rem)}
